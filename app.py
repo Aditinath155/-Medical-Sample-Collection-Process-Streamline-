@@ -9,7 +9,7 @@ import streamlit as st
 import numpy as np
 
 data = pickle.load(open('final.pkl','rb'))
-ada_clf = pickle.load(open('train.pkl','rb'))
+lr_clf = pickle.load(open('train.pkl','rb'))
 
 st.title("Medical Sample Collection Process Streamline")
 
